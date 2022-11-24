@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".taobaodenglu.ZhuCe"
+>
+    <ImageView
+        android:layout_width="68dp"
+        android:layout_height="68dp"
+        android:src="@drawable/chahao"
+        android:onClick="enroll_finish"/>
+    <TextView
+        android:layout_marginStart="27dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:text="xxx"
+        android:textSize="37sp"
+        android:textColor="@color/black"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="27dp"
+        android:text="注册淘宝账号，新人领取最高30元红包"
+        android:textStyle="bold"
+        android:textSize="19sp"
+        android:textColor="#CC3367"
+        android:background="#D8B9C4"/>
+    <EditText
+        android:id="@+id/edt_enroll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginEnd="25dp"
+        android:hint="请输入手机号码"
+        android:phoneNumber="true"
+        android:inputType="number"
+        tools:ignore="Deprecated"
+        android:background="@drawable/edt"
+        android:textCursorDrawable="@drawable/cursor"/>
+    <Button
+        android:id="@+id/btn_enroll"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="60dp"
+        android:background="@drawable/old"
+        android:text="立即注册"
+        android:textSize="20sp"
+        android:textColor="@color/white"
+        android:enabled="false"
+        />
+    <RadioButton
+        android:id="@+id/z_agree"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:onClick="agree"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="遇到问题？"
+        android:textStyle="bold"
+        android:textSize="17sp"
+        android:layout_marginTop="120dp"
+        android:onClick="question"/>
+
+
+
+</LinearLayout>
