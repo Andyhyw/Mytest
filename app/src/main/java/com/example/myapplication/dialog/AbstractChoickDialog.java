@@ -26,6 +26,7 @@ public abstract class AbstractChoickDialog extends Dialog implements
 	protected View mParentView;
 	protected View mRootView;
 
+
 	protected ScrollView mScrollView;
 	protected TextView mTVTitle;
 	protected Button mButtonOK;
